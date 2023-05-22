@@ -23,5 +23,18 @@
     </dependency>
   </dependencies>
 <build>
+   <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.3</version>
+                <configuration>
+                    <source>1.6</source> <!-- Set the appropriate Java source compatibility level -->
+                    <target>1.6</target> <!-- Set the appropriate Java target compatibility level -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </build>
 </project>
